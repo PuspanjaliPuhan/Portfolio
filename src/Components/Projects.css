@@ -32,7 +32,8 @@
 }
 
 .mywork-container .pic {
-    width: 300px;
-    height: 200px;
+    width: 419px;
+    height: 280px;
+    box-sizing: border-box;
     justify-content: space-around;
 }
