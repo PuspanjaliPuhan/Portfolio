@@ -18,8 +18,10 @@ export default function About() {
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>Lorem ipsum dolor sit amet doloribus fugiat nostrum iusto aliquid, aperiam ipsum mollitia eum voluptatem quis eligendi ea iste magnam laborum incidunt.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora dicta voluptas cum quas magni dolore, cumque a enim laboriosam magnam?</p>
+                        <p>A motivated and results-driven final-year B.Tech. Interested in Python and seeking a challenging position in a reputed
+                            organization where I can leverage my technical skills, innovative mindset, and academic knowledge to contribute to the
+                            company’s growth while gaining valuable experience. I consider these attributes crucial in any work environment and am
+                            excited to put them into practice in real world scenarios.</p>
                     </div>
                     <div className="about-skills">
                         <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "80%" }} /></div>

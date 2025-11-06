@@ -37,3 +37,17 @@
     box-sizing: border-box;
     justify-content: space-around;
 }
+
+.mywork-showmore {
+    display: flex;
+    margin-top: 10px;
+    justify-content: left;
+    align-items: center;
+}
+
+.mywork-showmore img {
+    width: 30px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 10px;
+}

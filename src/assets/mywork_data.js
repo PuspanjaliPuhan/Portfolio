@@ -3,6 +3,7 @@ import calculator from './calculator.png'
 import landing from './landings.png'
 import Tic_Tac_Toe from './tic-tac-toe.png'
 import portfolio from './portfolio.png'
+import To_Do from './task.png'
 const mywork_data = [
 
     {
@@ -14,6 +15,11 @@ const mywork_data = [
         w_no: 2,
         w_name: "Travel and Tour Website",
         w_img: tour_img
+    },
+    {
+        w_no: 3,
+        w_name: "To-Do List",
+        w_img: To_Do
     },
     {
         w_no: 3,
