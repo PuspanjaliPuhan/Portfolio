@@ -9,22 +9,25 @@ const mywork_data = [
     {
         w_no: 1,
         w_name: "Portfolio",
-        w_img: portfolio
+        w_img: portfolio,
     },
     {
         w_no: 2,
         w_name: "Travel and Tour Website",
-        w_img: tour_img
+        w_img: tour_img,
+        w_link: "https://puspanjalipuhan.github.io/Travel_Tour/"
     },
     {
         w_no: 3,
         w_name: "To-Do List",
-        w_img: To_Do
+        w_img: To_Do,
+        w_link: "https://puspanjalipuhan.github.io/Task-Buddy-TODO-project/"
     },
     {
         w_no: 3,
         w_name: "Calculator",
-        w_img: calculator
+        w_img: calculator,
+        w_link: "https://puspanjalipuhan.github.io/Calculator/"
     },
     {
         w_no: 4,

@@ -14,7 +14,11 @@ const Projects = () => {
             </div>
             <div className="mywork-container">
                 {mywork_data.map((work, index) => {
-                    return <img key={index} src={work.w_img} alt="" className='pic' />
+                    return (
+                        <a href={work.w_link} key={index} target='_blanck'>
+                            <img key={index} src={work.w_img} alt="" className='pic' />
+                        </a>
+                    )
                 })}
                 <div className="mywork-showmore">
                     <p>Show More</p>
