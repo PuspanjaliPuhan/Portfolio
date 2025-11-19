@@ -36,13 +36,40 @@
     height: 280px;
     box-sizing: border-box;
     justify-content: space-around;
+    cursor: pointer;
 }
+
+.mywork-container .pic:hover {
+    transform: scale(1.10);
+    border: 2px solid #651fab;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
 
 .mywork-showmore {
     display: flex;
-    margin-top: 10px;
-    justify-content: left;
+    gap: 10px;
+    border-radius: 50px;
+    border: 5px solid white;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    transition: 0.6s;
+    cursor: pointer;
+    margin: 10 auto;
+    justify-content: center;
     align-items: center;
+}
+
+.showmore-wrapper {
+    grid-column: 1 / -1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 40px;
 }
 
 .mywork-showmore img {
