@@ -4,7 +4,7 @@ import './About.css'
 // import theme_pattern from ''
 import logo_img from '../assets/logo.svg'
 import profile_img from '../assets/lusi.png'
-
+import Py_ml from '../assets/Python-ML.pdf'
 export default function About() {
     return (
         <div className='about'>
@@ -32,6 +32,8 @@ export default function About() {
                     </div>
                 </div>
             </div>
+
+            <div className='certificate'> Certifications & Works </div>
             <div className="about-achievements">
                 <div className="about-achievement">
                     <h1>Full-Stack Web Development</h1>
@@ -39,8 +41,10 @@ export default function About() {
                 </div>
                 <hr />
                 <div className="about-achievement">
-                    <h1>Python & AI/ML Summer Camp</h1>
-                    <p>With One project, 2023</p>
+                    <a href={Py_ml}>
+                        <h1>Python & AI/ML Summer Camp</h1>
+                        <p>With One project, 2023</p>
+                    </a>
                 </div>
                 <hr />
                 <div className="about-achievement">

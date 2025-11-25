@@ -77,6 +77,16 @@
     background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
 }
 
+.certificate {
+    font-size: 50px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DF8908 50.41%, #B415FF 106.28%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 .about-achievements {
     display: flex;
     width: 100%;
@@ -93,10 +103,11 @@
     transition: 0.5s;
 }
 
+
 /* .about-achievement:hover {
     border: 2px solid #B415FF;
     transition: 0.3s ease;
-
+    
 } */
 
 .about-achievement h1 {
@@ -111,6 +122,14 @@
 .about-achievement p {
     font-size: 22px;
     font-weight: 500;
+    color: white;
+    text-align: center;
+
+}
+
+.about-achievement a {
+    text-decoration: none;
+
 }
 
 .about-skill:hover {

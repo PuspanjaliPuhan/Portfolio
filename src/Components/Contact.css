@@ -26,7 +26,10 @@
 
 .contact-section {
     display: flex;
+    justify-content: space-between;
     gap: 150px;
+    height: 700px;
+    /* flex-wrap: wrap; */
 }
 
 .contact-left {
@@ -69,10 +72,11 @@
 }
 
 .contact-right {
+    /* width: 10px; */
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 30px;
+    gap: 20px;
     /* justify-content: center; */
 }
 
@@ -85,6 +89,7 @@
 .contact-right input {
     border: none;
     width: 700px;
+    /* max-width: 700px; */
     height: 78px;
     padding-left: 20px;
     border-radius: 4px;
@@ -110,8 +115,8 @@
     color: white;
     border-radius: 50px;
     background: linear-gradient(260deg, #DF8908 -5.09%, #B415FF 106.28%);
-    font-size: 22px;
-    padding: 20px 60px;
+    font-size: 20px;
+    padding: 15px 45px;
     margin-bottom: 50px;
     cursor: pointer;
     transition: 0.3s;
