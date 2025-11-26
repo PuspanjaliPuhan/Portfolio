@@ -5,9 +5,11 @@ import './About.css'
 import logo_img from '../assets/logo.svg'
 import profile_img from '../assets/lusi.png'
 import Py_ml from '../assets/Python-ML.pdf'
+import next_wave from '../assets/NXT-wave.pdf'
+import tech_gurukul from '../assets/Tech-gurukul.pdf'
 export default function About() {
     return (
-        <div className='about'>
+        <div id='about' className='about'>
             <div className="about-title">
                 <h1>About me</h1>
                 <img src={logo_img} alt="" />
@@ -33,7 +35,7 @@ export default function About() {
                 </div>
             </div>
 
-            <div className='certificate'> Certifications & Works </div>
+            <div className='certificate'> Certifications & WorkShop </div>
             <div className="about-achievements">
                 <div className="about-achievement">
                     <h1>Full-Stack Web Development</h1>
@@ -41,25 +43,35 @@ export default function About() {
                 </div>
                 <hr />
                 <div className="about-achievement">
-                    <a href={Py_ml}>
+                    <a href={Py_ml} target='_blanck'>
                         <h1>Python & AI/ML Summer Camp</h1>
                         <p>With One project, 2023</p>
                     </a>
                 </div>
-                <hr />
+                {/* <hr />
                 <div className="about-achievement">
                     <h1>Forever Buy</h1>
                     <p>MERN STACK Collage Project, 2025</p>
-                </div>
+                </div> */}
             </div>
             <div className="about-workShop">
                 <div className="about-achievement">
-                    <h1>Generative AI Workshop</h1>
-                    <p> NxtWave 2023</p>
+                    <a href={next_wave} target='_blank'>
+                        <h1>Generative AI Workshop</h1>
+                        <p> NxtWave 2023</p>
+                    </a>
                 </div>
                 <div className="about-achievement">
-                    <h1>Career Summit Seminar</h1>
-                    <p> Wooble 2024</p>
+                    <a href="">
+                        <h1>Career Summit Seminar</h1>
+                        <p> Wooble 2024</p>
+                    </a>
+                </div>
+                <div className="about-achievement">
+                    <a href={tech_gurukul} target='_blank'>
+                        <h1>Tech Gurukul Workshop</h1>
+                        <p> Tech Gurukul 2024</p>
+                    </a>
                 </div>
             </div>
         </div>

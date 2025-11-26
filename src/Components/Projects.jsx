@@ -7,7 +7,7 @@ import arrow_icon from '../assets/arrow-right.svg'
 
 const Projects = () => {
     return (
-        <div className='mywork'>
+        <div id='work' className='mywork'>
             <div className="mywork-title">
                 <h1>My Latest Work</h1>
                 <img src={logo_img} alt="" />

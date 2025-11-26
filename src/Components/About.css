@@ -91,6 +91,8 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    gap: 70px;
+
     margin-bottom: 80px;
 }
 
@@ -129,6 +131,7 @@
 
 .about-achievement a {
     text-decoration: none;
+    color: inherit;
 
 }
 
@@ -148,4 +151,114 @@
     width: 100%;
     justify-content: space-around;
     margin-bottom: 10px;
+}
+
+
+@media(max-width:768px) {
+    .about {
+        gap: 80px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+
+    .about-title h1 {
+        font-size: 50px;
+        padding: 0;
+    }
+
+    .about-title img {
+        width: 130px;
+        right: -20px;
+    }
+
+    .about-sections {
+        flex-direction: column;
+    }
+
+    .about-left {
+        display: none;
+    }
+
+    .about-para {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .about-skill {
+        gap: 20px;
+        align-items: center;
+    }
+
+    .about-skill p {
+        font-size: 20px;
+    }
+
+    .about-skill hr {
+        height: 6px;
+    }
+
+    .certificate {
+        font-size: 34px;
+    }
+
+    .about-achievements {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        /* justify-content: space-between; */
+
+    }
+
+    .about-achievement {
+        text-align: center;
+        width: 100%;
+        max-width: 300px;
+        /* gap: 10px; */
+    }
+
+    .about-achievement h1 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+    .about-achievement p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .about-workShop {
+        display: flex;
+        flex-direction: column;
+        /* Stack vertically */
+        align-items: center;
+        gap: 30px;
+        margin-top: 10px;
+    }
+
+    .about-workShop .about-achievement {
+        width: 100%;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .about-workShop .about-achievement h1 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .about-workShop .about-achievement p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .about-workShop a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+        width: 100%;
+    }
+
 }
