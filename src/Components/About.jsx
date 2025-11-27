@@ -3,7 +3,7 @@ import './About.css'
 
 // import theme_pattern from ''
 import logo_img from '../assets/logo.svg'
-import profile_img from '../assets/lusi.png'
+import profile_img from '../assets/lusi.jpeg'
 import Py_ml from '../assets/Python-ML.pdf'
 import next_wave from '../assets/NXT-wave.pdf'
 import tech_gurukul from '../assets/Tech-gurukul.pdf'
@@ -28,6 +28,7 @@ export default function About() {
                     <div className="about-skills">
                         <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "80%" }} /></div>
                         <div className="about-skill"><p>ReactJS</p><hr style={{ width: "65%" }} /></div>
+                        <div className="about-skill"><p>BootStrap</p><hr style={{ width: "70%" }} /></div>
                         <div className="about-skill"><p>Java</p><hr style={{ width: "70%" }} /></div>
                         <div className="about-skill"><p>SQL</p><hr style={{ width: "85%" }} /></div>
                         <div className="about-skill"><p>Python</p><hr style={{ width: "50%" }} /></div>
@@ -38,8 +39,10 @@ export default function About() {
             <div className='certificate'> Certifications & WorkShop </div>
             <div className="about-achievements">
                 <div className="about-achievement">
-                    <h1>Full-Stack Web Development</h1>
-                    <p>Kodnest,  June 2025 – Present</p>
+                    <a href="">
+                        <h1>Full-Stack Web Development</h1>
+                        <p>Kodnest,  June 2025 – Present</p>
+                    </a>
                 </div>
                 <hr />
                 <div className="about-achievement">

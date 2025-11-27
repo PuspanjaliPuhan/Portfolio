@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import profile_img from '../assets/lusi.png'
+import profile_img from '../assets/lusi.jpeg'
 import pdf_file from '../assets/Puspanjali-Puhan.pdf'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 export default function Hero() {

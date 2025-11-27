@@ -20,12 +20,12 @@ const Projects = () => {
                         </a>
                     )
                 })}
-                <div className="showmore-wrapper">
+                {/* <div className="showmore-wrapper">
                     <div className="mywork-showmore">
                         <p>Show More</p>
                         <img src={arrow_icon} alt="" />
                     </div>
-                </div>
+                </div> */}
 
             </div>
 

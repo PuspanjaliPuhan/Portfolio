@@ -3,15 +3,15 @@
     align-items: center;
     flex-direction: column;
     gap: 35px;
-    /* background-color: #000; */
+    background-color: #000;
 }
 
 
 .hero img {
-    width: 160px;
-    height: 180px;
-    margin-top: 100px;
-    border-radius: 80%;
+    width: 200px;
+    height: 250px;
+    margin-top: 80px;
+    border-radius: 50%;
 }
 
 .hero h1 {
@@ -84,7 +84,9 @@
 @media(max-width:768px) {
     .hero img {
         margin: 30px;
-        width: 200px;
+        width: 150px;
+        height: 200px;
+        border-radius: 50%;
 
     }
 
